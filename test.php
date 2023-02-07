@@ -1,0 +1,1 @@
+echo blog_info('charset');
