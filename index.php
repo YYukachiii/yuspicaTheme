@@ -12,7 +12,9 @@
     <body>
         <?php wp_body_open();?> // 固定内容
 
-        <div id="page" class="site">
+        <div id="page" class="site"> // 包含三部分内容，header,content和footer
+
+            // 以下是网页的头部，包括logo，title，description和导航区域
             <header id="masthead" class="site-header">
                 <div class="site-branding">
                     <div class="site-branding-logo">
@@ -44,7 +46,19 @@
                 </nav><!-- #site-navigation -->
 
             </header>
+            
+            // 以下是网页的内容部分
+            <div id="content" class="site-content">
+            </div>
+
+            // 以下是网页的页脚部分
+            <footer>
+                <p>此部分保留为网页的页脚。</p>
+            </footer>
+
         </div>
+
+        <?php wp_footer(); ?>
     </body>
 </html>
 
