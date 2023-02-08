@@ -10,7 +10,7 @@
         <?php wp_head();?>
     </head>
     <body>
-        <?php wp_body_open();?>
+        <?php wp_body_open();?> // 固定内容
 
         <div id="page" class="site">
             <header id="masthead" class="site-header">
